@@ -323,5 +323,11 @@ DOWNLOADED: 4610 - FOUND: 2
 
 This is simply the installed version of dirb.
 
+#### 2. Start time
+`START_TIME: Thu Apr 17 16:29:52 2025`
+
+This shows when the scan started.
+
+
 
 
