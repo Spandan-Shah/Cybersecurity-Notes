@@ -39,3 +39,12 @@ It works by:
 This is possible because developers often use predictable names for web pages and folders.
 
 ---
+
+## Requirement
+
+- A running lab website target
+- Terminal access
+- `dirb` installed
+- Browser access to open discovered pages
+
+---
