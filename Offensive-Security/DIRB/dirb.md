@@ -48,3 +48,11 @@ This is possible because developers often use predictable names for web pages an
 - Browser access to open discovered pages
 
 ---
+
+# Installation on Kali Linux
+
+### Step 1: Update package list
+
+Open the Kali terminal and run:
+`sudo apt update`  
+This refreshes the package index before installation.
