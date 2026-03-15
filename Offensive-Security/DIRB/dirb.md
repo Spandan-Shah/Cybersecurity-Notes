@@ -123,3 +123,18 @@ PING fakebank.thm (10.10.10.10) 56(84) bytes of data.
 * The hostname is resolving properly
 * The target machine is reachable
 * You can move to the next step
+
+### If it does not work:
+
+You may see errors like:
+
+`ping: fakebank.thm: Name or service not known`
+
+or
+
+`Temporary failure in name resolution`
+
+**This means:**
+Kali cannot convert `fakebank.thm` into an IP address.
+
+Then you need to manually add the hostname in `/etc/hosts`.
