@@ -105,3 +105,21 @@ ping -c 4 fakebank.thm
 *   **ping** checks network connectivity
 *   **-c 4** means send only 4 packets
 *   **fakebank.thm** is the hostname we want to test
+
+### If everything is working correctly:
+
+You will get output similar to this:
+
+```text
+PING fakebank.thm (10.10.10.10) 56(84) bytes of data.
+64 bytes from fakebank.thm (10.10.10.10): icmp_seq=1 ttl=64 time=10.2 ms
+64 bytes from fakebank.thm (10.10.10.10): icmp_seq=2 ttl=64 time=11.1 ms
+64 bytes from fakebank.thm (10.10.10.10): icmp_seq=3 ttl=64 time=10.5 ms
+64 bytes from fakebank.thm (10.10.10.10): icmp_seq=4 ttl=64 time=9.8 ms
+```
+
+**This means:**
+
+* The hostname is resolving properly
+* The target machine is reachable
+* You can move to the next step
