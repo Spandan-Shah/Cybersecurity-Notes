@@ -217,3 +217,28 @@ Check these things:
 * `/etc/hosts` entry is correct
 * Hostname spelling is correct
 * IP address is correct
+
+### Step 8: Log In to the Website Normally First
+
+Before doing the hidden page discovery, log in as a normal user if credentials are provided.
+
+**Why this matters:**
+
+You should understand what pages are visible to a regular user before searching for hidden ones.
+
+**Look for:**
+
+* Account number
+* Current balance
+* Menu options
+* What pages are available normally
+
+**Important:**
+
+Note down your bank account number.
+
+**Example:**
+
+`8881`
+
+You will need it later when using the hidden deposit page.
