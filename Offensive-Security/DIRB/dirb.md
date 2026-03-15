@@ -67,3 +67,20 @@ Kali’s official tools page lists this as the installation command for dirb.
 Run:
 `dirb`  
 If installed correctly, the tool will display its banner and usage information.
+
+# Practical Setup on Kali Linux
+
+### Step 4: Open the lab website in your browser
+
+Open the target website in Firefox or another browser on Kali.
+
+**Example target:**  
+`http://fakebank.thm`
+
+If the page opens correctly in the browser, your lab target is reachable.
+
+If it does not open, the issue is usually one of these:
+* The lab machine is not started
+* Your VPN is not connected
+* The target hostname is not resolving
+* Kali cannot reach the lab network
