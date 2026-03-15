@@ -366,6 +366,20 @@ This means:
 `http://fakebank.thm/bank-deposit`
 This is a strong result.
 
+**CODE:301**
+
+This means:
+
+* The path exists
+* It redirects to another location
+
+**Example:**
+
+`http://fakebank.thm/images`
+
+This still means the page or folder is real.
+
+
 
 
 
