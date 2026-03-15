@@ -190,3 +190,30 @@ ping -c 4 fakebank.thm
 ```
 
 If ping now works, hostname resolution is fixed.
+
+
+### Step 7: Open the Website in Kali Browser
+
+Now open Firefox in Kali Linux.
+
+In the address bar type:
+`http://fakebank.thm`
+
+**What you should see:**
+* The banking website home page
+* Login page or account page
+* The target website should load normally
+
+**If the page opens:**
+Good. That means:
+* Browser can reach the target
+* Hostname mapping is correct
+* You are ready to scan
+
+**If the page does not open:**
+Check these things:
+* Target machine is running
+* VPN or lab network is connected
+* `/etc/hosts` entry is correct
+* Hostname spelling is correct
+* IP address is correct
