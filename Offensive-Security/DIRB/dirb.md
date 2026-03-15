@@ -289,3 +289,31 @@ After running the command, `dirb` will start testing many common directory and p
 
 It is sending HTTP requests to many possible paths and checking which ones give meaningful responses.
 
+### Step 12: Read the Output Carefully
+
+You may see output like this:
+
+```text
+-----------------
+DIRB v2.22
+By The Dark Raver
+-----------------
+
+START_TIME: Thu Apr 17 16:29:52 2025
+URL_BASE: http://fakebank.thm/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+GENERATED WORDS: 4610
+
+---- Scanning URL: http://fakebank.thm/ ----
++ http://fakebank.thm/bank-deposit (CODE:200|SIZE:4663)
++ http://fakebank.thm/images (CODE:301|SIZE:179)
+
+-----------------
+END_TIME: Thu Apr 17 16:29:59 2025
+DOWNLOADED: 4610 - FOUND: 2
+```
+
+
