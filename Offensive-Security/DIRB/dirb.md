@@ -21,3 +21,21 @@ In a safe lab environment, we can practice these techniques legally and learn ho
 In this practical, the goal is to examine a sample banking website and identify hidden pages that are not visible through normal navigation.
 
 Sometimes, web applications contain secret or unlinked URLs that provide sensitive functions. If such URLs are discovered, they may allow unauthorized actions. One common way to find these hidden paths is by using a brute-force content discovery tool such as `dirb`.
+
+---
+
+## Tool Used
+
+### `dirb`
+
+`dirb` is a web content scanner used to discover hidden directories and pages on a website.
+
+It works by:
+- taking a target website URL
+- using a predefined wordlist
+- testing many possible page names one by one
+- checking which pages actually exist
+
+This is possible because developers often use predictable names for web pages and folders.
+
+---
