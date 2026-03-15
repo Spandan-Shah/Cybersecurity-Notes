@@ -351,6 +351,21 @@ This means dirb will try 4610 possible names.
 
 These are the important findings.
 
+### Step 14: Understand the Meaning of Result Codes
+
+**CODE:200**
+
+This means:
+
+* The page exists
+* It is accessible
+* You can open it directly
+
+**Example:**
+
+`http://fakebank.thm/bank-deposit`
+This is a strong result.
+
 
 
 
