@@ -263,3 +263,10 @@ Now type:
 ```bash
 dirb http://fakebank.thm
 ```
+
+**What this command means:**
+
+* **dirb** = the tool
+* **http://fakebank.thm** = the target website
+
+Since no wordlist is manually given here, dirb will use its default wordlist.
