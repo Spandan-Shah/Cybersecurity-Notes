@@ -158,3 +158,13 @@ sudo nano /etc/hosts
 **What this file is:**
 
 `/etc/hosts` is a local file in Linux used to connect hostnames with IP addresses.
+
+
+### Add a new line like this at the bottom:
+`10.10.10.10 fakebank.thm`
+
+**Important:**
+
+* Replace `10.10.10.10` with the actual IP address of your target machine
+* Keep one space between IP and hostname
+* Do not add extra symbols
