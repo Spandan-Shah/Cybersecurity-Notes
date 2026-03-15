@@ -148,3 +148,13 @@ If `fakebank.thm` is not resolving, you need to map it manually.
 
 * Sometimes lab websites do not exist on public DNS.
 * So Kali does not know where `fakebank.thm` points unless you tell it manually.
+
+### Open the hosts file:
+
+```bash
+sudo nano /etc/hosts
+```
+
+**What this file is:**
+
+`/etc/hosts` is a local file in Linux used to connect hostnames with IP addresses.
