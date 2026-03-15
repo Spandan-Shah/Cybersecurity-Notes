@@ -340,6 +340,12 @@ This tells you which wordlist is being used.
 
 A wordlist is simply a file containing many common file and directory names.
 
+#### 5. Generated words
+`GENERATED WORDS: 4610`
+
+This means dirb will try 4610 possible names.
+
+
 
 
 
