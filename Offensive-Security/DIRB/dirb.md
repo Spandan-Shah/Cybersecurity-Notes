@@ -138,3 +138,13 @@ or
 Kali cannot convert `fakebank.thm` into an IP address.
 
 Then you need to manually add the hostname in `/etc/hosts`.
+
+
+### Step 6: Manually Add the Target in /etc/hosts If Needed
+
+If `fakebank.thm` is not resolving, you need to map it manually.
+
+**Why this step is needed:**
+
+* Sometimes lab websites do not exist on public DNS.
+* So Kali does not know where `fakebank.thm` points unless you tell it manually.
