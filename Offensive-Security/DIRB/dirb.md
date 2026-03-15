@@ -15,3 +15,9 @@ This is the core idea of **Offensive Security**. In this approach, we simulate t
 In a safe lab environment, we can practice these techniques legally and learn how ethical hackers identify hidden features that normal users are not supposed to access.
 
 ---
+
+## Objective of This Practical
+
+In this practical, the goal is to examine a sample banking website and identify hidden pages that are not visible through normal navigation.
+
+Sometimes, web applications contain secret or unlinked URLs that provide sensitive functions. If such URLs are discovered, they may allow unauthorized actions. One common way to find these hidden paths is by using a brute-force content discovery tool such as `dirb`.
