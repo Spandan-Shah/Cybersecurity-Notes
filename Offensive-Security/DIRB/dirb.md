@@ -333,6 +333,13 @@ This shows when the scan started.
 
 This tells you which target website is being scanned.
 
+#### 4. Wordlist file
+`WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt`
+
+This tells you which wordlist is being used.
+
+A wordlist is simply a file containing many common file and directory names.
+
 
 
 
