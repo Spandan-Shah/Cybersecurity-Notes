@@ -84,3 +84,24 @@ If it does not open, the issue is usually one of these:
 * Your VPN is not connected
 * The target hostname is not resolving
 * Kali cannot reach the lab network
+
+### Step 5: Check Whether the Target Hostname Resolves Properly
+
+Before using dirb, you must confirm that your Kali machine can actually identify and reach the target website name.
+
+Here the target name is:
+
+`fakebank.thm`
+
+When you type this in browser or terminal, Kali must know which IP address belongs to this name.
+
+Run this command:
+```bash
+ping -c 4 fakebank.thm
+```
+
+**What this command does:**
+
+*   **ping** checks network connectivity
+*   **-c 4** means send only 4 packets
+*   **fakebank.thm** is the hostname we want to test
