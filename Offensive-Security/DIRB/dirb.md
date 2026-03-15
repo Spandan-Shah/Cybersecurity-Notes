@@ -168,3 +168,25 @@ sudo nano /etc/hosts
 * Replace `10.10.10.10` with the actual IP address of your target machine
 * Keep one space between IP and hostname
 * Do not add extra symbols
+
+markdown
+**Example:**
+```text
+127.0.0.1       localhost
+127.0.1.1       kali
+
+10.10.10.10     fakebank.thm
+```
+
+**Save the file in nano:**
+
+* Press **Ctrl + O**
+* Press **Enter**
+* Press **Ctrl + X**
+
+**Test again:**
+```bash
+ping -c 4 fakebank.thm
+```
+
+If ping now works, hostname resolution is fixed.
