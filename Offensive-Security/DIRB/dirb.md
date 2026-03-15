@@ -345,6 +345,13 @@ A wordlist is simply a file containing many common file and directory names.
 
 This means dirb will try 4610 possible names.
 
+#### 6. Scanning results
+`+ http://fakebank.thm/bank-deposit (CODE:200|SIZE:4663)`  
+`+ http://fakebank.thm/images (CODE:301|SIZE:179)`
+
+These are the important findings.
+
+
 
 
 
