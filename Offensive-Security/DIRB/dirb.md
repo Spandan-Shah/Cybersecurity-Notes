@@ -254,3 +254,12 @@ Now open Terminal in Kali Linux.
 * Or pressing **Ctrl + Alt + T**
 
 This terminal is where you will run `dirb`.
+
+
+### Step 10: Run the Basic dirb Scan
+
+Now type:
+
+```bash
+dirb http://fakebank.thm
+```
