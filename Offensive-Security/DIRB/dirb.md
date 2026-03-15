@@ -62,3 +62,8 @@ This refreshes the package index before installation.
 Run:
 `sudo apt install dirb`  
 Kali’s official tools page lists this as the installation command for dirb.
+
+### Step 3: Verify installation
+Run:
+`dirb`  
+If installed correctly, the tool will display its banner and usage information.
