@@ -316,4 +316,12 @@ END_TIME: Thu Apr 17 16:29:59 2025
 DOWNLOADED: 4610 - FOUND: 2
 ```
 
+### Step 13: Understand Each Part of the Output
+
+#### 1. Tool version
+`DIRB v2.22`
+
+This is simply the installed version of dirb.
+
+
 
