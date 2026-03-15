@@ -270,3 +270,22 @@ dirb http://fakebank.thm
 * **http://fakebank.thm** = the target website
 
 Since no wordlist is manually given here, dirb will use its default wordlist.
+
+
+### Step 11: Wait for the Scan to Complete
+
+After running the command, `dirb` will start testing many common directory and page names one by one.
+
+**Examples of names it may test:**
+
+* `/admin`
+* `/images`
+* `/login`
+* `/config`
+* `/backup`
+* `/deposit`
+
+**What dirb is doing internally:**
+
+It is sending HTTP requests to many possible paths and checking which ones give meaningful responses.
+
