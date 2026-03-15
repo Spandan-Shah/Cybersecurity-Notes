@@ -56,3 +56,9 @@ This is possible because developers often use predictable names for web pages an
 Open the Kali terminal and run:
 `sudo apt update`  
 This refreshes the package index before installation.
+
+### Step 2: Install dirb
+
+Run:
+`sudo apt install dirb`  
+Kali’s official tools page lists this as the installation command for dirb.
