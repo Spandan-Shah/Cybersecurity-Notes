@@ -1,0 +1,1 @@
+# Practical Session: Finding Hidden Pages Using `dirb`
