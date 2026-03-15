@@ -328,6 +328,12 @@ This is simply the installed version of dirb.
 
 This shows when the scan started.
 
+#### 3. URL base
+`URL_BASE: http://fakebank.thm/`
+
+This tells you which target website is being scanned.
+
+
 
 
 
