@@ -242,3 +242,15 @@ Note down your bank account number.
 `8881`
 
 You will need it later when using the hidden deposit page.
+
+
+### Step 9: Open Kali Terminal for Scanning
+
+Now open Terminal in Kali Linux.
+
+**You can do this by:**
+
+* Clicking terminal icon
+* Or pressing **Ctrl + Alt + T**
+
+This terminal is where you will run `dirb`.
