@@ -535,6 +535,12 @@ sudo apt install dirb
 ping -c 4 fakebank.thm
 ```
 
+### To edit hosts file:
+
+```bash
+sudo nano /etc/hosts
+```
+
 
 
 
