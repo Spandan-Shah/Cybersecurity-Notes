@@ -379,6 +379,13 @@ This means:
 
 This still means the page or folder is real.
 
+**SIZE**
+This tells the size of the response body.
+
+*   **Example:** `SIZE:4663`
+*   **Purpose:** This can help compare pages and identify false positives.
+
+
 
 
 
