@@ -480,6 +480,24 @@ If the hidden deposit page worked, the balance should have increased.
 This proves the hidden page performed a sensitive action.
 
 
+### Step 22: Check for the Success Pop-Up
+
+If your balance is now positive, the application may show a pop-up or message.
+
+This pop-up may contain:
+* Success text
+* Green words
+* Completion phrase
+
+You must read that message carefully and note it exactly as shown.
+
+**If required in the activity:**
+* Write it in **UPPERCASE**
+* Do not change spelling
+* Refresh if you accidentally close it
+
+
+
 
 
 
