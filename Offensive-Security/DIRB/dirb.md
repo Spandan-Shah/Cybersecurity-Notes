@@ -435,6 +435,18 @@ Now enter your account number.
 Make sure you type the correct account number that belongs to your login.
 
 
+### Step 18: Enter the Deposit Amount
+
+In the amount field, enter:
+
+`2000`
+
+You can enter the required amount according to the practical.
+
+Then click the **deposit** or **submit** button.
+
+
+
 
 
 
