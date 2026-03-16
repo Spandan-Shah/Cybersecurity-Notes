@@ -458,6 +458,15 @@ This usually confirms:
 
 Read the details carefully.
 
+### Step 20: Return to the Account Page
+
+On the receipt page, click:
+
+**Return to Your Account**
+
+This will take you back to your account overview page.
+
+
 
 
 
