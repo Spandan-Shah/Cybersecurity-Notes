@@ -466,6 +466,20 @@ On the receipt page, click:
 
 This will take you back to your account overview page.
 
+### Step 21: Confirm Whether Balance Has Changed
+
+Now check the account balance.
+
+If the hidden deposit page worked, the balance should have increased.
+
+**For example:**
+
+* Old balance may have been negative.
+* After adding `2000`, the balance may become positive.
+
+This proves the hidden page performed a sensitive action.
+
+
 
 
 
