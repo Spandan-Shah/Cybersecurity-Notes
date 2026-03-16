@@ -541,6 +541,12 @@ ping -c 4 fakebank.thm
 sudo nano /etc/hosts
 ```
 
+### To run scan:
+
+```bash
+dirb http://fakebank.thm
+```
+
 
 
 
