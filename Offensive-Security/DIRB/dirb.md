@@ -410,6 +410,17 @@ In the address bar type:
 and press Enter.
 
 
+### What you should see:
+
+A page that allows money to be deposited into a bank account.
+
+This page was hidden from normal navigation, but **dirb** found it.
+
+**This is the main concept of the practical:**
+Hidden URLs may expose sensitive functionality.
+
+
+
 
 
 
