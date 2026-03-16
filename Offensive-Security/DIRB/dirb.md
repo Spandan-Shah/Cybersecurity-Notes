@@ -386,6 +386,20 @@ This tells the size of the response body.
 *   **Purpose:** This can help compare pages and identify false positives.
 
 
+### Step 15: Identify the Hidden URLs Properly
+
+From the output, two hidden URLs were found:
+
+* http://fakebank.thm
+* http://fakebank.thm
+
+Now for the practical, the important page is:
+
+**http://fakebank.thm**
+
+Because this page gives access to a hidden function.
+
+
 
 
 
