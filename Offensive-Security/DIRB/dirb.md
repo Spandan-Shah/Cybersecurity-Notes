@@ -520,6 +520,15 @@ Practical observations are recorded clearly below using the requested format.
 
 Hidden pages of the target website were successfully discovered using **dirb** on Kali Linux. One hidden page exposed a deposit function that allowed funds to be added to the bank account. This demonstrated how unlinked pages can reveal sensitive functionality if proper access controls are not applied.
 
+### Extra Detailed Commands
+
+**To install dirb:**
+
+```bash
+sudo apt update
+sudo apt install dirb
+
+
 
 
 
