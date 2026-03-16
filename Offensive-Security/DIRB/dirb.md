@@ -420,6 +420,22 @@ This page was hidden from normal navigation, but **dirb** found it.
 Hidden URLs may expose sensitive functionality.
 
 
+### Step 17: Enter the Account Number
+
+On the deposit page, you will usually see fields like:
+
+* Account number
+* Deposit amount
+
+Now enter your account number.
+
+**Example:**
+`8881`
+
+Make sure you type the correct account number that belongs to your login.
+
+
+
 
 
 
