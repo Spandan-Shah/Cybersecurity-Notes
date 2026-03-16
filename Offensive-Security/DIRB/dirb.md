@@ -498,6 +498,25 @@ You must read that message carefully and note it exactly as shown.
 
 
 
+### Step 23: Record Your Observation
+
+Practical observations are recorded clearly below using the requested format.
+
+**Observation:**
+
+*   **Target scanned:** http://fakebank.thm
+*   **Tool used:** dirb
+*   **Wordlist used:** /usr/share/dirb/wordlists/common.txt
+*   **Hidden URLs found:**
+    *   /images
+    *   /bank-deposit
+*   **Sensitive function discovered:** hidden deposit page
+*   **Action performed:** amount added to account
+*   **Result:** account balance increased
+
+
+
+
 
 
 
