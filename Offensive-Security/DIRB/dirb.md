@@ -514,6 +514,13 @@ Practical observations are recorded clearly below using the requested format.
 *   **Action performed:** amount added to account
 *   **Result:** account balance increased
 
+### Step 24: Write the Final Result
+
+**Result:**
+
+Hidden pages of the target website were successfully discovered using **dirb** on Kali Linux. One hidden page exposed a deposit function that allowed funds to be added to the bank account. This demonstrated how unlinked pages can reveal sensitive functionality if proper access controls are not applied.
+
+
 
 
 
