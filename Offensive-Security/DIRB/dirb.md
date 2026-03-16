@@ -547,6 +547,12 @@ sudo nano /etc/hosts
 dirb http://fakebank.thm
 ```
 
+### To save output in a file:
+
+```bash
+dirb http://fakebank.thm -o output.txt
+```
+
 
 
 
