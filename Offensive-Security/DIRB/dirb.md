@@ -527,7 +527,13 @@ Hidden pages of the target website were successfully discovered using **dirb** o
 ```bash
 sudo apt update
 sudo apt install dirb
+```
 
+### To test hostname:
+
+```bash
+ping -c 4 fakebank.thm
+```
 
 
 
