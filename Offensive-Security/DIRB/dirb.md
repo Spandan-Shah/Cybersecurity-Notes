@@ -446,6 +446,20 @@ You can enter the required amount according to the practical.
 Then click the **deposit** or **submit** button.
 
 
+### Step 19: Read the Deposit Receipt
+
+After submission, a receipt or confirmation page may appear.
+
+This usually confirms:
+
+* Account number
+* Amount added
+* Whether the transaction succeeded
+
+Read the details carefully.
+
+
+
 
 
 
