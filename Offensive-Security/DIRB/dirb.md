@@ -399,6 +399,17 @@ Now for the practical, the important page is:
 
 Because this page gives access to a hidden function.
 
+### Step 16: Open the Hidden Page in the Browser
+
+Now go back to Firefox in Kali.
+
+In the address bar type:
+
+`http://fakebank.thm/bank-deposit`
+
+and press Enter.
+
+
 
 
 
