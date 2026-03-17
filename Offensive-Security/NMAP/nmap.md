@@ -469,6 +469,27 @@ This scans ports from **1 to 1000**.
 This gives more detail than a very small scan. It helps you find services running on lower-numbered common ports.
 
 
+## 17. Scanning All Ports
+
+By default, **Nmap** does not scan all 65,535 ports. If you want to scan every single port, use:
+
+```bash
+nmap -p- 192.168.1.10
+```
+
+### 📝 Explanation
+
+*   **`-p-`** — means scan **all** 65,535 ports.
+
+---
+
+### 🎯 Why this matters
+
+Sometimes a service may be running on an **unusual port**. A normal scan may miss it. A full port scan helps find **hidden** or **uncommon** services.
+
+> [!NOTE]
+> **Beginner note:** This scan is more complete, but it can take significantly more time to finish.
+
 
 
 
