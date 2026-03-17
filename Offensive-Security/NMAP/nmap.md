@@ -336,6 +336,30 @@ Instead of scanning them one by one, you can scan them all together.
 > This saves time.
 
 
+## 12. Scanning a Range of IP Addresses
+
+If you want to scan many nearby IPs, you can use a range.
+
+### Example:
+```bash
+nmap 192.168.1.1-50
+```
+
+This means **Nmap** will scan:
+*   `192.168.1.1`
+*   `192.168.1.2`
+*   `192.168.1.3`
+*   ...
+*   `192.168.1.50`
+
+---
+
+### 📡 Why this is useful
+
+This helps when you do not know which systems are active in a network.
+
+> [!TIP]
+> For example, in a lab network, some machines may be **on** and some may be **off**. This command helps you check many systems quickly.
 
 
 
