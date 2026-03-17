@@ -9,3 +9,18 @@ These tools help professionals across the industry—including **ethical hackers
 
 ### Key Highlight
 One of the most important and widely used tools in cybersecurity is **`Nmap`**.
+
+## 2. What is Nmap?
+
+**Nmap** stands for **Network Mapper**. It is an open-source cybersecurity and network discovery tool used for:
+
+*   **Host discovery**
+*   **Port scanning**
+*   **Service detection**
+*   **Version detection**
+*   **Operating system detection**
+*   **Security auditing**
+
+> [!TIP]
+> It is mainly used to understand what is exposed on a machine or network.
+
