@@ -516,6 +516,38 @@ This scan is faster and commonly used by security professionals. It checks ports
 > **Beginner note:** You do not need to deeply understand packet details right now. Just remember that **`-sS`** is one of the most popular Nmap scan types.
 
 
+## 19. TCP Connect Scan
+
+Another scan type is:
+
+```bash
+nmap -sT 192.168.1.10
+```
+
+### 📝 Explanation
+
+*   **`-sT`** — TCP connect scan
+
+---
+
+### 🔍 What it does
+
+This scan completes the **full TCP connection** (the three-way handshake).
+
+---
+
+### ⚖️ Difference from SYN scan
+
+*   **SYN scan (`-sS`)** is more efficient and "stealthy."
+*   **TCP connect scan (`-sT`)** is simpler.
+*   **TCP connect scan** is often used when raw packet permissions (like root/sudo) are not available.
+
+> [!NOTE]  
+> **Beginner note:** For starting, just remember:  
+> *   **`-sS`** = SYN scan  
+> *   **`-sT`** = full TCP connect scan
+
+
 
 
 
