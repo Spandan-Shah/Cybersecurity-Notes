@@ -139,6 +139,43 @@ If a port is open, it usually means a service is running there. That service may
 > This is why open ports are very important in cybersecurity.
 
 
+## 6. Port States in Nmap
+
+When **Nmap** scans ports, it does not always say only “yes” or “no”. It shows the specific **state** of each port to provide better context.
+
+---
+
+### The Main Port States:
+
+#### 1. Open
+This means the port is open and a service is **listening** there.
+> **Example:** Port `80 open` means a web service may be running.
+
+#### 2. Closed
+This means the port is **reachable**, but no service is currently running on it.
+
+#### 3. Filtered
+This means Nmap **cannot clearly see** the port because a firewall or filter is blocking the scan.
+
+#### 4. Open|Filtered
+This means Nmap is **not fully sure** whether the port is open or filtered.
+
+#### 5. Closed|Filtered
+This means Nmap **cannot fully decide** whether the port is closed or filtered.
+
+---
+
+### 💡 Easy Understanding
+
+*   **Open** = Something is there.
+*   **Closed** = Nothing is there right now.
+*   **Filtered** = Something is blocking Nmap from checking properly.
+
+> [!TIP]
+> This helps us understand not only the target machine but also the **firewall behavior**.
+
+
+
 
 
 
