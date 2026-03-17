@@ -310,6 +310,32 @@ nmap example.com
 This is easier for beginners.
 
 
+## 11. Scanning More Than One Host
+
+You can scan multiple systems together.
+
+### Example:
+```bash
+nmap 192.168.1.10 192.168.1.20 192.168.1.30
+```
+
+This scans all three targets.
+
+---
+
+### ⏱️ Why this is useful
+
+Suppose in your lab you have:
+*   **One web server**
+*   **One database server**
+*   **One file server**
+
+Instead of scanning them one by one, you can scan them all together. 
+
+> [!TIP]
+> This saves time.
+
+
 
 
 
