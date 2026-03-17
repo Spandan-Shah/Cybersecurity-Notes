@@ -548,6 +548,31 @@ This scan completes the **full TCP connection** (the three-way handshake).
 > *   **`-sT`** = full TCP connect scan
 
 
+## 20. UDP Scan
+
+Not all services use **TCP**. Some use **UDP**. To scan UDP ports:
+
+```bash
+sudo nmap -sU 192.168.1.10
+```
+
+### 📝 Explanation
+
+*   **`-sU`** = UDP scan
+
+---
+
+### 📡 Why UDP matters
+
+Some important services use UDP, such as:
+*   **DNS**
+*   **SNMP**
+*   **DHCP**
+*   **TFTP**
+
+> [!NOTE]  
+> **Beginner note:** TCP scans are more common for beginners, but UDP scans are also important because some services **only** run on UDP.
+
 
 
 
