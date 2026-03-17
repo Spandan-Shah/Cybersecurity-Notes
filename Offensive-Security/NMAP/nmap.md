@@ -362,5 +362,36 @@ This helps when you do not know which systems are active in a network.
 > For example, in a lab network, some machines may be **on** and some may be **off**. This command helps you check many systems quickly.
 
 
+## 13. Scanning a Full Subnet
+
+Sometimes you may want to scan a whole subnet.
+
+### Example:
+```bash
+nmap 192.168.1.0/24
+```
+
+### ❓ What does /24 mean?
+It means a full group of IP addresses in that network. Usually, this covers addresses like:
+*   `192.168.1.1`
+*   `192.168.1.2`
+*   ...
+*   `192.168.1.254`
+
+---
+
+### 📡 Why this is useful
+This is useful for finding:
+*   **Laptops** & **Desktops**
+*   **Servers**
+*   **Printers**
+*   **IoT devices**
+*   **Routers**
+
+> [!TIP]
+> Subnet scanning is essential for **network discovery**.
+
+
+
 
 
