@@ -59,6 +59,44 @@ Nmap is important because it helps us find:
 That is why **Nmap** is one of the first tools people learn in cybersecurity.
 
 
+## 4. Real-Life Use of Nmap
+
+Nmap is not just for theory. It is used in real life by professionals such as:
+
+*   **Ethical Hackers**
+*   **Penetration Testers**
+*   **SOC Analysts**
+*   **Network Administrators**
+*   **System Administrators**
+*   **Security Auditors**
+
+### Let us understand with a simple example:
+
+Suppose a company has a web server. They think only the website should be accessible. So ideally, only these ports should be open:
+*   **80** for **HTTP**
+*   **443** for **HTTPS**
+
+But when they run **Nmap**, they find:
+*   **22** open
+*   **80** open
+*   **443** open
+*   **3306** open
+
+#### This means:
+*   **SSH** is open
+*   The **website** is open
+*   The **secure website** is open
+*   The **database port** is also open
+
+> [!WARNING]
+> This may be dangerous because the database should usually not be open to everyone.
+
+Nmap helps security teams check whether the system is showing more than it should. In simple words, Nmap helps answer this question:
+
+> **“What can this machine be accessed for from the network?”**
+
+
+
 
 
 
