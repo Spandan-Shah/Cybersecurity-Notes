@@ -203,6 +203,34 @@ nmap --version
 > [!TIP]
 > If the version appears, that means **Nmap** is installed correctly.
 
+## 8. First Basic Nmap Command
+
+The most basic scan is:
+
+```bash
+nmap 192.168.1.10
+```
+
+This means **Nmap** will scan the target IP address `192.168.1.10`.
+
+---
+
+### What this does
+This command checks:
+*   **Whether the host is alive**
+*   **Which common ports are open**
+*   **What services may be running**
+
+---
+
+### 🟢 Beginner Understanding
+This is usually the first step when you are given a target machine in a lab. You may not know anything about that machine, so the first question is:
+
+> **“What is open on it?”**
+
+This command helps answer that.
+
+
 
 
 
