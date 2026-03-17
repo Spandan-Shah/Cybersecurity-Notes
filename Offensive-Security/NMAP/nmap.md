@@ -96,6 +96,50 @@ Nmap helps security teams check whether the system is showing more than it shoul
 > **“What can this machine be accessed for from the network?”**
 
 
+## 5. What is a Port?
+
+To understand **Nmap**, you must understand ports first.
+
+A **port** is like a numbered communication point on a computer. Think of a computer like a building and ports like **doors**:
+
+*   Each door has a **number**.
+*   Different **services** use different doors.
+*   If a door is **open**, communication can happen through it.
+
+### Some Common Ports:
+
+
+| Port Number | Service |
+| :--- | :--- |
+| **21** | FTP |
+| **22** | SSH |
+| **23** | Telnet |
+| **25** | SMTP |
+| **53** | DNS |
+| **80** | HTTP |
+| **110** | POP3 |
+| **143** | IMAP |
+| **443** | HTTPS |
+| **3306** | MySQL |
+
+> [!NOTE]
+> When **Nmap** scans a machine, it checks these ports and sees which ones are open.
+
+---
+
+### Why Ports Matter
+
+If a port is open, it usually means a service is running there. That service may be:
+
+*   **Useful** or **Normal**
+*   **Unnecessary** or **Old**
+*   **Badly configured** or **Vulnerable**
+
+> [!IMPORTANT]
+> This is why open ports are very important in cybersecurity.
+
+
+
 
 
 
