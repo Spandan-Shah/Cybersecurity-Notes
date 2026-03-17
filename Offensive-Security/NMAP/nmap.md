@@ -276,9 +276,38 @@ From just one scan, we now know:
 > That is why **Nmap** is so powerful.
 
 
+## 10. Scanning a Website Name Instead of IP
+
+**Nmap** can also scan a hostname or domain name.
+
+### Example:
+```bash
+nmap example.com
+```
 
 
+This is useful when you know the website name, but not the IP address.
 
+---
+
+### 🔍 What happens
+**Nmap** first finds the IP address of that domain, then scans it.
+
+---
+
+### 🟢 Beginner Example
+Instead of typing an IP like:
+```bash
+nmap 93.184.216.34
+```
+
+You can simply type:
+
+```bash
+nmap example.com
+```
+
+This is easier for beginners.
 
 
 
