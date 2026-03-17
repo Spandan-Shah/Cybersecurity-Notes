@@ -231,6 +231,52 @@ This is usually the first step when you are given a target machine in a lab. You
 This command helps answer that.
 
 
+## 9. Understanding Basic Output
+
+Suppose the output is:
+
+```text
+Starting Nmap 7.94
+Nmap scan report for 192.168.1.10
+Host is up.
+
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+```
+
+### Now let us understand this simply:
+
+#### **Host is up**
+This means the machine is active and responding.
+
+#### **22/tcp open ssh**
+This means:
+*   **Port 22** is open
+*   It uses **TCP**
+*   **SSH service** is probably running
+
+#### **80/tcp open http**
+This means a **website** may be running.
+
+#### **443/tcp open https**
+This means a **secure website** may be running.
+
+---
+
+### 💡 What we learn from this
+From just one scan, we now know:
+*   The machine is **alive**
+*   **Remote login** may be possible through SSH
+*   A **website** is running
+*   A **secure website** is also running
+
+> [!TIP]
+> That is why **Nmap** is so powerful.
+
+
+
 
 
 
