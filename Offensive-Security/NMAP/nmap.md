@@ -175,6 +175,36 @@ This means Nmap **cannot fully decide** whether the port is closed or filtered.
 > This helps us understand not only the target machine but also the **firewall behavior**.
 
 
+## 7. Installing Nmap
+
+Before using **Nmap**, you need to install it. 
+
+On many cybersecurity systems like **Kali Linux**, Nmap is already pre-installed. However, if it is not, you can install it manually.
+
+---
+
+### On Ubuntu / Debian / Kali:
+```bash
+sudo apt install nmap
+```
+
+### Check version:
+```bash
+nmap --version
+```
+
+### 📝 Explanation
+
+*   **`sudo`** — Run as administrator
+*   **`apt install`** — Install a package
+*   **`nmap`** — The tool name
+*   **`--version`** — Show installed version
+
+> [!TIP]
+> If the version appears, that means **Nmap** is installed correctly.
+
+
+
 
 
 
