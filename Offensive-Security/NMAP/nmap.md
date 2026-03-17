@@ -491,6 +491,31 @@ Sometimes a service may be running on an **unusual port**. A normal scan may mis
 > **Beginner note:** This scan is more complete, but it can take significantly more time to finish.
 
 
+## 18. SYN Scan
+
+A very common **Nmap** scan is the **SYN scan**.
+
+### Example:
+```bash
+sudo nmap -sS 192.168.1.10
+```
+
+
+### 📝 Explanation
+
+*   **`sudo`** — Administrator rights
+*   **`-sS`** — SYN scan
+
+---
+
+### 💡 Simple Understanding
+
+This scan is faster and commonly used by security professionals. It checks ports in a smart way without fully opening every connection.
+
+> [!NOTE]  
+> **Beginner note:** You do not need to deeply understand packet details right now. Just remember that **`-sS`** is one of the most popular Nmap scan types.
+
+
 
 
 
