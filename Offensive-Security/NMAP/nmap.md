@@ -392,6 +392,36 @@ This is useful for finding:
 > Subnet scanning is essential for **network discovery**.
 
 
+## 14. Host Discovery Only
+
+Sometimes you do not want a full port scan. You only want to know which machines are alive.
+
+For that, use:
+```bash
+nmap -sn 192.168.1.0/24
+```
+
+### 📝 Explanation
+
+*   **`-sn`** — means only check which hosts are up.
+*   It **does not** do a normal port scan.
+
+---
+
+### 🚀 Why this is useful
+
+This is faster and cleaner when you first want to find active devices.
+
+### 🟢 Beginner Understanding
+
+This command answers:
+> **“Which devices are alive in this network?”**
+
+rather than:
+> *“Which ports are open?”*
+
+
+
 
 
 
