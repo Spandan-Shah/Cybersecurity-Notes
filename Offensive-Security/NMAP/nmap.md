@@ -421,6 +421,35 @@ rather than:
 > *“Which ports are open?”*
 
 
+## 15. Scanning Specific Ports
+
+Sometimes you only care about a few ports.
+
+### Example:
+```bash
+nmap -p 22,80,443 192.168.1.10
+```
+
+### 📝 Explanation
+
+*   **`-p`** — means port.
+*   **`22,80,443`** — are the specific ports to scan.
+
+This scans **only**:
+*   Port **22**
+*   Port **80**
+*   Port **443**
+
+---
+
+### 🎯 Why this is useful
+This is helpful when you want to quickly check known important services.
+
+**For example:**
+*   **22** for SSH
+*   **80** for website
+*   **443** for secure website
+
 
 
 
