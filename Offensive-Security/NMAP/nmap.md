@@ -550,7 +550,28 @@ This scan completes the **full TCP connection** (the three-way handshake).
 
 ## 20. UDP Scan
 
-Not all services use **TCP**. Some use **UDP**. To scan UDP ports:
+Not all services use **TCP**. Some use **UDP**. 
+
+> [!TIP]
+> Think of a **TCP scan** like a formal phone call: you dial, they pick up, you both say "Hello," and then you start talking. It's very clear if the line is open or busy.
+>
+> A **UDP scan** is more like throwing a paper airplane over a high wall. You don't know if someone caught it, if it landed in an empty yard, or if a security guard swatted it down.
+
+---
+
+### Why This Technique is Unique
+
+Here is a breakdown of why this technique is unique and how to read the results like a pro:
+
+*   **No Handshake**: Unlike TCP, UDP doesn't "shake hands," making it harder to confirm if a port is truly open.
+*   **Connectionless**: It just sends data and hopes for the best, which is why it can be slower and less reliable to scan.
+*   **Silent Response**: If a port is open, it often sends **nothing** back, leaving Nmap to guess the state.
+
+
+
+
+
+To scan UDP ports:
 
 ```bash
 sudo nmap -sU 192.168.1.10
