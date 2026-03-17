@@ -451,6 +451,25 @@ This is helpful when you want to quickly check known important services.
 *   **443** for secure website
 
 
+## 16. Scanning a Port Range
+
+You can also scan a continuous range of ports.
+
+### Example:
+```bash
+nmap -p 1-1000 192.168.1.10
+``` 
+
+This scans ports from **1 to 1000**.
+
+---
+
+### 🎯 Why this is useful
+
+This gives more detail than a very small scan. It helps you find services running on lower-numbered common ports.
+
+
+
 
 
 
