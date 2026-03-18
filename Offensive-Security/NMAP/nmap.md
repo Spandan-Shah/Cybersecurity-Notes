@@ -595,5 +595,22 @@ Some important services use UDP, such as:
 > **Beginner note:** TCP scans are more common for beginners, but UDP scans are also important because some services **only** run on UDP.
 
 
+## 21. Service Version Detection
+
+Identifying the specific version of a service is the difference between knowing a door is "unlocked" and knowing exactly which "brand of lock" is being used. When you use the `-sV` flag in Nmap, you are moving from simple discovery to vulnerability assessment.
+
+### Why Service Version Detection is Critical
+Knowing that **Port 80** is open tells you there is a web server. Knowing that it is specifically **Apache httpd 2.4.49** tells you the system is likely vulnerable to a specific path traversal exploit ([CVE-2021-41773](https://mitre.org)).
+
+Without version detection, you are essentially guessing. With it, you can map the software against databases of known bugs.
+
+### How it Works Internally
+When you run `nmap -sV`, Nmap doesn't just look at the port number. It engages in a "conversation" with the port:
+
+*   **Banner Grabbing:** It listens for the initial text string the service sends when a connection is established (e.g., `"SSH-2.0-OpenSSH_8.2"`).
+*   **Probes:** If no banner is sent, Nmap sends specific data packets (probes) to see how the service responds.
+*   **Signature Matching:** It compares those responses against a database of thousands of known service signatures.
+
+
 
 
