@@ -633,6 +633,32 @@ Without the `-sV` flag, you’d just see "Port 21 Open" and might waste hours tr
 *   **Security Auditing:** System admins use this to ensure their "auto-update" scripts are actually working across the fleet.
 
 
+### 22. Operating System Detection
+
+Nmap can also try to guess the operating system of a target.
+
+**Example Command:**
+`sudo nmap -O 192.168.1.10`
+
+#### Explanation
+*   **`-O`**: Enables OS detection.
+*   **`sudo`**: Required because Nmap needs raw packet access to analyze the response characteristics.
+
+#### What this does
+It tries to identify whether the target is running:
+*   **Linux** (and often the specific kernel version)
+*   **Windows** (e.g., Windows 10, Server 2019)
+*   **Router/Embedded devices** (Cisco, Linksys, IoT devices)
+*   **Other systems** (FreeBSD, Solaris, etc.)
+
+#### Why this is useful
+Knowing the operating system helps security professionals:
+1.  **Narrow down exploits:** You won't waste time trying a Windows exploit on a Linux server.
+2.  **Understand the attack surface:** Different OSs have different default behaviors and security features.
+3.  **Asset Management:** Helps admins keep an inventory of what devices are actually on their network.
+
+
+
 
 
 ## 23. Aggressive Scan
