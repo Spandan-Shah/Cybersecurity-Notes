@@ -622,6 +622,15 @@ Imagine you scan a server and find the following:
 | 443 | HTTPS | nginx 1.14.0 | Outdated |
 
 
+### The Danger of vsftpd 2.3.4
+This specific version is famous in the security world. Back in 2011, a backdoored copy of this software was distributed. If a version scan reveals `vsftpd 2.3.4`, a pentester knows they can trigger a shell by simply sending a username that ends in a smiley face `:)`.
+
+Without the `-sV` flag, you’d just see "Port 21 Open" and might waste hours trying to brute-force a password that isn't even necessary.
+
+### Key Benefits
+*   **Targeted Exploitation:** You can search the CVE (Common Vulnerabilities and Exposures) database for that exact version.
+*   **Reducing False Positives:** Sometimes services run on non-standard ports (like SSH on port 8080). `-sV` will correctly identify it as SSH, whereas a basic scan might assume it's a web server.
+*   **Security Auditing:** System admins use this to ensure their "auto-update" scripts are actually working across the fleet.
 
 
 
