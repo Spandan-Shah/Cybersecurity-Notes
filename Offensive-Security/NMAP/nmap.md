@@ -705,3 +705,26 @@ But with version detection, it may say something like:
 
 #### Why this matters
 Vulnerabilities are usually linked to **specific software versions**, not just open ports. Knowing the version allows you to look up precise exploits.
+
+
+#### 3) Script scanning (`-sC`)
+
+This means:
+
+> “Run Nmap’s default scripts to ask extra questions.”
+
+These scripts try to collect more information from the target service. Nmap’s scripting engine (**NSE**) is used to gather additional service details and perform extra checks.
+
+**Example Idea:**
+
+Instead of only saying:
+`21/tcp open ftp`
+
+A script may reveal something extra like:
+*   **Anonymous login allowed**
+*   Website title
+*   SSL certificate info
+*   SMB details
+
+**So this part means:**
+> “Look deeper and gather more useful details.”
