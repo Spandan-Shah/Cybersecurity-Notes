@@ -681,3 +681,27 @@ Like:
 Nmap does this by sending special packets and checking how the target replies. It then compares that behavior with its **OS fingerprint database**.
 
 
+#### 2) Version detection (`-sV`)
+
+This means:
+
+> “Try to find what service is running, and which version.”
+
+**Example:**
+
+Without version detection, Nmap may say:
+`80/tcp open http`
+
+This only means:
+> “A web service is running.”
+
+But with version detection, it may say something like:
+`80/tcp open http Apache httpd 2.4.x`
+
+**Now you know:**
+*   It is a web server.
+*   It is Apache.
+*   The specific version number.
+
+#### Why this matters
+Vulnerabilities are usually linked to **specific software versions**, not just open ports. Knowing the version allows you to look up precise exploits.
