@@ -728,3 +728,20 @@ A script may reveal something extra like:
 
 **So this part means:**
 > “Look deeper and gather more useful details.”
+
+
+
+#### 4) Traceroute (`--traceroute`)
+
+This means:
+
+> “Show the network path to the target.”
+
+Like if you are going to a house, traceroute shows:
+*   First road
+*   Second road
+*   Third road
+*   Final destination
+
+**So it tells you:**  
+How the packets reach that target system. Nmap confirms that `-A` includes **traceroute** as part of its comprehensive scan.
