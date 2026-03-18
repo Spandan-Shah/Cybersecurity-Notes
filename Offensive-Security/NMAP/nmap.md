@@ -634,3 +634,35 @@ Without the `-sV` flag, you’d just see "Port 21 Open" and might waste hours tr
 
 
 
+
+## 23. Aggressive Scan
+
+### Aggressive Scan in Nmap
+
+The command is:  
+`sudo nmap -A 192.168.1.10`
+
+Think of `nmap -A` like this:  
+Suppose a house is your target computer.
+
+#### Normal Scan
+A normal Nmap scan is like standing outside the house and checking:
+*   Is the front door open?
+*   Is the back door open?
+
+**That means:** Nmap only checks which ports are open.
+
+#### But -A means:
+Nmap does more checking, not just “which doors are open.” So when you run `sudo nmap -A 192.168.1.10`, it is like saying:
+
+> “Don’t just tell me which doors are open. Tell me more details about the house.”
+
+According to Nmap, `-A` turns on:
+*   **OS detection**
+*   **Version detection**
+*   **Default script scanning**
+*   **Traceroute**
+
+> [!WARNING]
+> Nmap warns that the default scripts are considered **intrusive**, so you should only use this on systems you own or are allowed to test.
+
