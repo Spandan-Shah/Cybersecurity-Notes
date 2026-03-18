@@ -769,3 +769,16 @@ That is why Nmap says default script scanning is considered intrusive.
 *   It **interacts more** with the target.
 *   It is **more likely to be noticed** in logs.
 *   It **should not be done** on systems you don't have permission to test.
+
+
+### Why “only use on systems you own or have permission to test”?
+
+Because `-A` does deeper checking. 
+
+If you use it on someone else’s server without permission:
+*   It may **trigger alerts**.
+*   It may be treated as **unauthorized scanning**.
+*   It may **violate rules or laws**.
+
+That is why Nmap itself warns not to use `-A` against target networks without explicit permission.
+
