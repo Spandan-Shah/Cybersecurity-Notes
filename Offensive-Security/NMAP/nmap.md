@@ -666,3 +666,18 @@ According to Nmap, `-A` turns on:
 > [!WARNING]
 > Nmap warns that the default scripts are considered **intrusive**, so you should only use this on systems you own or are allowed to test.
 
+
+#### 1) OS detection (`-O`)
+
+This means:
+
+> “Try to guess what operating system the target is using.”
+
+Like:
+*   Windows
+*   Linux
+*   Router/device
+
+Nmap does this by sending special packets and checking how the target replies. It then compares that behavior with its **OS fingerprint database**.
+
+
