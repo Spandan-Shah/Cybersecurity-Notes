@@ -611,6 +611,17 @@ When you run `nmap -sV`, Nmap doesn't just look at the port number. It engages i
 *   **Probes:** If no banner is sent, Nmap sends specific data packets (probes) to see how the service responds.
 *   **Signature Matching:** It compares those responses against a database of thousands of known service signatures.
 
+### A Real-World Example: The "Old Software" Trap
+Imagine you scan a server and find the following:
+
+
+| Port | Service | Version Detected | Status |
+| :--- | :--- | :--- | :--- |
+| 21 | FTP | vsftpd 2.3.4 | **Critical Risk** |
+| 22 | SSH | OpenSSH 8.9 | Secure (Patched) |
+| 443 | HTTPS | nginx 1.14.0 | Outdated |
+
+
 
 
 
