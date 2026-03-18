@@ -745,3 +745,27 @@ Like if you are going to a house, traceroute shows:
 
 **So it tells you:**  
 How the packets reach that target system. Nmap confirms that `-A` includes **traceroute** as part of its comprehensive scan.
+
+
+### What does “intrusive” mean?
+
+This is the part confusing you. **Intrusive does not mean hacking.**
+
+It means:
+> The scan is more active and more noticeable.
+
+**A simple scan** is like just looking at a door.
+
+**An intrusive scan** is like:
+*   Knocking on the door
+*   Asking questions
+*   Checking the nameplate
+*   Seeing who answers
+
+That is why Nmap says default script scanning is considered intrusive.
+
+#### In simple words, Intrusive means:
+*   It sends **more detailed probes**.
+*   It **interacts more** with the target.
+*   It is **more likely to be noticed** in logs.
+*   It **should not be done** on systems you don't have permission to test.
