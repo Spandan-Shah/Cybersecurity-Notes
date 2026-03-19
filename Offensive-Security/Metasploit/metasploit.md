@@ -57,4 +57,6 @@ Some payload examples are:
 - adding a user
 - executing a command
 
+## 14. Auxiliary Modules
+Auxiliary modules are used for scanning, enumeration, fuzzing, brute force, and other supporting tasks. They do not always exploit the target directly.
 
