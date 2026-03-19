@@ -15,3 +15,6 @@ Metasploit is mainly designed for penetration testers, ethical hackers, and secu
 
 ## 6. Used in Offensive Security
 Metasploit belongs to offensive security because it is used to attack, test, and exploit weaknesses in systems. Its job is to act like an attacker so that security can be improved.
+
+## 7. Command Line Interface
+Metasploit is commonly used through its command-line interface called `msfconsole`. This console provides access to all major modules, commands, and settings.
