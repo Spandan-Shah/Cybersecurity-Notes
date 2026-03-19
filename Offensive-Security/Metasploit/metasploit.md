@@ -31,3 +31,14 @@ The basic idea of Metasploit is:
 - run the exploit
 
 If successful, the tester may get access to the target system.
+
+## 10. Main Components of Metasploit
+Metasploit mainly works with:
+- exploits
+- payloads
+- auxiliary modules
+- post modules
+- encoders
+- nops
+
+These components together make the framework powerful and flexible.
