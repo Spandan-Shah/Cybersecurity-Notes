@@ -60,3 +60,6 @@ Some payload examples are:
 ## 14. Auxiliary Modules
 Auxiliary modules are used for scanning, enumeration, fuzzing, brute force, and other supporting tasks. They do not always exploit the target directly.
 
+## 15. Post-Exploitation Modules
+Post modules are used after gaining access to a system. They help in gathering system information, privilege escalation checks, credential collection, and maintaining control.
+
