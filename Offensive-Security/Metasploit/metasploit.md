@@ -63,3 +63,6 @@ Auxiliary modules are used for scanning, enumeration, fuzzing, brute force, and 
 ## 15. Post-Exploitation Modules
 Post modules are used after gaining access to a system. They help in gathering system information, privilege escalation checks, credential collection, and maintaining control.
 
+## 16. Encoders in Metasploit
+Encoders are used to modify payloads so they may avoid simple detection or bad characters. They do not create the attack by themselves, but help payload delivery.
+
