@@ -72,3 +72,13 @@ NOP means “No Operation.” NOP generators are used in some exploit developmen
 ## 18. Meterpreter
 Meterpreter is one of the most powerful payloads in Metasploit. It provides an advanced interactive shell that runs in memory and gives many post-exploitation capabilities.
 
+## 19. Features of Meterpreter
+Meterpreter can do tasks like:
+- file browsing
+- process viewing
+- screen capture
+- keylogging
+- privilege checks
+- command execution
+- network pivoting
+
