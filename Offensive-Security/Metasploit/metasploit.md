@@ -66,3 +66,6 @@ Post modules are used after gaining access to a system. They help in gathering s
 ## 16. Encoders in Metasploit
 Encoders are used to modify payloads so they may avoid simple detection or bad characters. They do not create the attack by themselves, but help payload delivery.
 
+## 17. NOP Generator
+NOP means “No Operation.” NOP generators are used in some exploit development cases to improve payload alignment or buffer handling.
+
