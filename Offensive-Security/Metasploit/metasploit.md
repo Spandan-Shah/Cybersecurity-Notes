@@ -9,3 +9,6 @@ Metasploit is important because it brings many security testing functions into o
 
 ## 4. Open Source Framework
 Metasploit Framework is open source, which means it is freely available for learning, practice, and security research. This is one reason it became very popular in the cybersecurity field.
+
+## 5. Developed for Penetration Testing
+Metasploit is mainly designed for penetration testers, ethical hackers, and security researchers. It helps them simulate real attacks safely on authorized systems.
