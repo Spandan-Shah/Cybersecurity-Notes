@@ -42,3 +42,8 @@ Metasploit mainly works with:
 - nops
 
 These components together make the framework powerful and flexible.
+
+## 11. Exploit Meaning
+An exploit is a piece of code that takes advantage of a specific vulnerability in the target system. It is the attacking part that tries to break into the target.
+
+
