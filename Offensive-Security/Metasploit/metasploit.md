@@ -12,3 +12,6 @@ Metasploit Framework is open source, which means it is freely available for lear
 
 ## 5. Developed for Penetration Testing
 Metasploit is mainly designed for penetration testers, ethical hackers, and security researchers. It helps them simulate real attacks safely on authorized systems.
+
+## 6. Used in Offensive Security
+Metasploit belongs to offensive security because it is used to attack, test, and exploit weaknesses in systems. Its job is to act like an attacker so that security can be improved.
