@@ -6,3 +6,6 @@ The main purpose of Metasploit is to check whether a vulnerability is actually e
 
 ## 3. Why Metasploit is Important
 Metasploit is important because it brings many security testing functions into one platform. Instead of writing exploit code manually, the tester can use ready modules and focus on analysis.
+
+## 4. Open Source Framework
+Metasploit Framework is open source, which means it is freely available for learning, practice, and security research. This is one reason it became very popular in the cybersecurity field.
