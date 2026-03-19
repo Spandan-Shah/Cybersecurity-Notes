@@ -69,3 +69,6 @@ Encoders are used to modify payloads so they may avoid simple detection or bad c
 ## 17. NOP Generator
 NOP means “No Operation.” NOP generators are used in some exploit development cases to improve payload alignment or buffer handling.
 
+## 18. Meterpreter
+Meterpreter is one of the most powerful payloads in Metasploit. It provides an advanced interactive shell that runs in memory and gives many post-exploitation capabilities.
+
