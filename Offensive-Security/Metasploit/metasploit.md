@@ -21,3 +21,13 @@ Metasploit is commonly used through its command-line interface called `msfconsol
 
 ## 8. Metasploit Framework vs Metasploit Pro
 Metasploit Framework is the free version, while Metasploit Pro is the commercial version with more automation and reporting features. In most academic and beginner practice, the Framework version is used.
+
+## 9. Basic Working Idea
+The basic idea of Metasploit is:
+- choose a vulnerability
+- load a matching exploit
+- set target details
+- attach a payload
+- run the exploit
+
+If successful, the tester may get access to the target system.
