@@ -82,3 +82,6 @@ Meterpreter can do tasks like:
 - command execution
 - network pivoting
 
+## 20. Reverse Shell Concept
+A reverse shell means the target machine connects back to the attacker’s machine after exploitation. This is often used when inbound access is restricted but outbound traffic is allowed.
+
