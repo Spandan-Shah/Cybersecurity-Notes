@@ -3,3 +3,6 @@ Metasploit Framework is a widely used offensive cybersecurity tool mainly used i
 
 ## 2. Purpose of Metasploit
 The main purpose of Metasploit is to check whether a vulnerability is actually exploitable in practice. It is not only used to find weaknesses, but also to verify their real impact.
+
+## 3. Why Metasploit is Important
+Metasploit is important because it brings many security testing functions into one platform. Instead of writing exploit code manually, the tester can use ready modules and focus on analysis.
