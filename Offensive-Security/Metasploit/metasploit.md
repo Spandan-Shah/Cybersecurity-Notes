@@ -49,4 +49,12 @@ An exploit is a piece of code that takes advantage of a specific vulnerability i
 ## 12. Payload Meaning
 A payload is the code that runs after the exploit succeeds. It determines what action will happen after access is gained.
 
+## 13. Example of Payload
+Some payload examples are:
+- opening a command shell
+- opening a Meterpreter session
+- creating a reverse shell
+- adding a user
+- executing a command
+
 
