@@ -18,3 +18,6 @@ Metasploit belongs to offensive security because it is used to attack, test, and
 
 ## 7. Command Line Interface
 Metasploit is commonly used through its command-line interface called `msfconsole`. This console provides access to all major modules, commands, and settings.
+
+## 8. Metasploit Framework vs Metasploit Pro
+Metasploit Framework is the free version, while Metasploit Pro is the commercial version with more automation and reporting features. In most academic and beginner practice, the Framework version is used.
